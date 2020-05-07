@@ -17,4 +17,8 @@ public class MainActivity1 extends AppCompatActivity {
         Intent intent=new Intent(this,MusicActivity.class);
         startActivity(intent);
     }
+    public void homework2(View view){
+        Intent intent=new Intent(this,HomeworkActivity2.class);
+        startActivity(intent);
+    }
 }
